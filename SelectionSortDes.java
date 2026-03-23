@@ -9,7 +9,7 @@ class SelectionSortDes{
 		for(int i=0;i<arr.length;i++){
 			min_index = i;
 			for(int j=i+1;j<arr.length;j++){
-				if(arr[min_index]>arr[j]){
+				if(arr[min_index]<arr[j]){
 					min_index = j;
 				}
 			}
